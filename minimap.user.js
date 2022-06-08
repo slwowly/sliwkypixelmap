@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         sliwky Minimap
 // @namespace    http://tampermonkey.net/
-// @version      1.13
+// @version      1.14
 // @description  sliwky Minimap
 // @author       IlyaBOT
 // @match        https://pixelplanet.fun/*
@@ -18,7 +18,7 @@ Number.prototype.between = function(a, b) {
   return this > min && this < max;
 };
 var range = 45;
-window.baseTepmlateUrl = 'https://raw.githubusercontent.com/IlyaBOT/IBminimap/main/';
+window.baseTepmlateUrl = 'https://raw.githubusercontent.com/slwowly/sliwkypixelmap/main/';
 
 window.addEventListener('load', function () {
     //Регулярное выражение для получения координат из URL-адреса
@@ -44,7 +44,7 @@ window.addEventListener('load', function () {
     zooming_out = false;
     zoom_time = 100;
     //Массив со всеми загруженными изображениями-шаблонами
-    image_list = [tgre];
+    image_list = [];
     counter = 0;
     //Шаблоны, которые нужны в текущей области
     needed_templates = null;
