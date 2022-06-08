@@ -44,7 +44,7 @@ window.addEventListener('load', function () {
     zooming_out = false;
     zoom_time = 100;
     //Массив со всеми загруженными изображениями-шаблонами
-    image_list = [];
+    image_list = [tgre];
     counter = 0;
     //Шаблоны, которые нужны в текущей области
     needed_templates = null;
