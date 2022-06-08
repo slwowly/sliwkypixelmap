@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         sliwky Minimap
 // @namespace    http://tampermonkey.net/
-// @version      1.05
+// @version      1.06
 // @description  sliwky Minimap
 // @author       IlyaBOT
 // @match        https://pixelplanet.fun/*
